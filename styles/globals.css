@@ -106,7 +106,9 @@
 .ms_100 {
   margin-left: -100%;
 }
-
+.cursor_pointer {
+  cursor: pointer;
+}
 .nav_open {
   height: 100%;
   width: 100%;

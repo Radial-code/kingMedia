@@ -20,15 +20,8 @@ const Your_leads = () => {
               </div>
               <div className="position-relative col-8 col-sm-10 z_index_2 business_img">
                 {" "}
-                {/* <Image
-                  width={415.14}
-                  height={417.29}
-                  className="w_xl_100 h-auto"
-                  src="/assets/images/png/your_lead_boy_girls_img.png"
-                  alt="your_lead_boy_girls_img"
-                /> */}
                 <div
-                  className="position-relative d-inline-block w_xl_100 h-auto"
+                  className="position-relative cursor_pointer d-inline-block w_xl_100 h-auto"
                   width={415.14}
                   height={417.29}
                   onClick={() => {
@@ -57,13 +50,6 @@ const Your_leads = () => {
                     muted
                     playsInline
                   ></video>
-                  {/* <Image
-                    width={415.14}
-                    height={417.29}
-                    className="w_xl_100 h-auto"
-                    src="/assets/images/png/your_business_sec_img.png"
-                    alt="your_business_sec_img"
-                  /> */}
                   <a
                     href="#"
                     className={`${play ? "opacity-0" : "opacity-1"}`}

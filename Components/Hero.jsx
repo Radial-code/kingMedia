@@ -95,9 +95,8 @@ const Hero = () => {
                 {" "}
                 <Slider className="position-relative slider" {...settings}>
                   <div
-                    className="h-auto w_xxl_100 position-relative"
+                    className="h-auto cursor_pointer w_xxl_100 position-relative"
                     width={527}
-                    style={{ cursor: "pointer" }}
                     height={566.69}
                     onClick={() => {
                       setplay(!play);
@@ -131,6 +130,7 @@ const Hero = () => {
                       href="#"
                     >
                       <Image
+                        style={{ cursor: "pointer" }}
                         width={93}
                         height={93}
                         className="position-absolute w_lg_25 h-auto z_index_3 top-50 start-50 translate-middle m-auto"
@@ -140,9 +140,8 @@ const Hero = () => {
                     </a>
                   </div>
                   <div
-                    className="h-auto w_xxl_100 position-relative"
+                    className="h-auto cursor_pointer w_xxl_100 position-relative"
                     width={527}
-                    style={{ cursor: "pointer" }}
                     height={566.69}
                     onClick={() => {
                       setplayONe(!playONe);
@@ -176,6 +175,7 @@ const Hero = () => {
                       href="#"
                     >
                       <Image
+                        style={{ cursor: "pointer" }}
                         width={93}
                         height={93}
                         className="position-absolute w_lg_25 h-auto z_index_3 top-50 start-50 translate-middle m-auto"
@@ -187,7 +187,6 @@ const Hero = () => {
                   <div
                     className="h-auto w_xxl_100 position-relative"
                     width={527}
-                    style={{ cursor: "pointer" }}
                     height={566.69}
                     onClick={() => {
                       setplayTWo(!playTWo);
@@ -222,6 +221,7 @@ const Hero = () => {
                       href="#"
                     >
                       <Image
+                        style={{ cursor: "pointer" }}
                         width={93}
                         height={93}
                         className="position-absolute w_lg_25 h-auto z_index_3 top-50 start-50 translate-middle m-auto"
