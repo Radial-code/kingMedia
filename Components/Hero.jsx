@@ -30,6 +30,7 @@ const Hero = () => {
                 <p className="tc_vertical text-white ff_Montserrat fs_xsm fw_md mb-2">
                   TWITTER
                 </p>
+                {/* next page */}
                 <Image
                   width={24}
                   height={24}
