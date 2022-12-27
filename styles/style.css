@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-decoration: none !important;
+  list-style-type: none !important;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: black !important;
+}
+
+.contactUs {
+  border: 0.5px solid #676767;
+  background: #222222;
+  padding: 25px 38px;
+  max-width: 450px;
+  margin: auto;
+}
+
+.contact_input {
+  border: 0.5px solid #676767;
+  background: #2E2E2E;
+}
+
+.contactUS_butt {
+  background-color: var(--bg_body);
+  color: #FFFFFF;
+  padding: 16px 36px;
+  width: 100%;
+  border: none;
+}
+
+.icon_scale:hover {
+  scale: 1.2;
+}
+
+.footer_icon_trans {
+  transition: all 250ms linear;
+}
+
+button:focus-visible {
+  outline: unset;
+}
+
+.z_index_high {
+  z-index: 2;
+}
+
+.pos_top {
+  top: -15%;
+}
+
+.outline_none {
+  outline: none;
+}
+
+@media (max-width:576px) {
+  .contactUS_butt {
+    padding: 10px;
+  }
+}
