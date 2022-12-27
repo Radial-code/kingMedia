@@ -3,13 +3,13 @@ import Footer from "../Components/Footer";
 import MapSec from "../Components/MapSec";
 import NequeSec from "../Components/NequeSec";
 import BackToTop from "../Components/BackToTop";
-import Media_nav from "../Components/Media_nav";
 import Image from "next/image";
+import MediaNav from "../components/MediaNav";
 
 const Contact = () => {
   return (
     <>
-      <Media_nav />
+      <MediaNav />
       <div className=" position-relative">
         <Image
           width={76}

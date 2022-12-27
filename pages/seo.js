@@ -1,16 +1,16 @@
 import NequeSec from "../Components/NequeSec";
 import Footer from "../Components/Footer";
 import WhyKingMedia from "../Components/WhyKingMedia";
-import Intent_and_purpose from "../Components/Intent_and_purpose";
-import Seo_checklist from "../Components/Seo_checklist";
 import BackToTop from "../Components/BackToTop";
-import Media_nav from "../Components/Media_nav";
 import Image from "next/image";
+import SeoChecklist from "../components/SeoChecklist";
+import IntentAndPurpose from "../components/IntentAndPurpose";
+import MediaNav from "../components/MediaNav";
 
 const Seo = () => {
   return (
     <>
-      <Media_nav />
+      <MediaNav />
       <div className=" position-relative">
         <Image
           width={50}
@@ -19,7 +19,7 @@ const Seo = () => {
           src="/assets/images/svg/contactUsRight.svg"
           alt="rightSquare"
         />
-        <Intent_and_purpose />
+        <IntentAndPurpose />
       </div>
       <WhyKingMedia />
       <div className=" position-relative">
@@ -37,7 +37,7 @@ const Seo = () => {
           src="/assets/images/svg/seoRightCircle.svg"
           alt="rightSquare"
         />
-        <Seo_checklist />
+        <SeoChecklist />
       </div>
       <NequeSec />
       <Footer />

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-const Seo_checklist = () => {
+const SeoChecklist = () => {
   const [play, setplay] = useState(false);
   return (
     <>
@@ -152,4 +152,4 @@ const Seo_checklist = () => {
   );
 };
 
-export default Seo_checklist;
+export default SeoChecklist;

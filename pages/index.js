@@ -1,5 +1,5 @@
-import BackToTop from "../Components/BackToTop";
-import HomePageHero from "./HomePageHero";
+import BackToTop from "../components/BackToTop";
+import HomePageHero from "./homepage";
 export default function Home() {
   return (
     <>

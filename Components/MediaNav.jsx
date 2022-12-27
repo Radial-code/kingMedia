@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { useState } from "react";
 import { Image } from "react-bootstrap";
-const Media_nav = () => {
+const MediaNav = () => {
   const [open, setclose] = useState(false);
   // if (open) {
   //   document.body.classList.add("overflow-hidden");
@@ -85,4 +85,4 @@ const Media_nav = () => {
   );
 };
 
-export default Media_nav;
+export default MediaNav;

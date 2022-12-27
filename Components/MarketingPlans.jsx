@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-const Marketing_plans = () => {
+const MarketingPlans = () => {
   return (
     <>
       <section id="SERVICES" className="bg-black pt-5 position-relative">
@@ -136,4 +136,4 @@ const Marketing_plans = () => {
   );
 };
 
-export default Marketing_plans;
+export default MarketingPlans;

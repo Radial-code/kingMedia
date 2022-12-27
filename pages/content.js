@@ -4,15 +4,15 @@ import ContactUs from "../Components/ContactUs";
 import Footer from "../Components/Footer";
 import SaveTime from "../Components/SaveTime";
 import ContentMediaCards from "../Components/ContentMediaCards";
-import Your_leads from "../Components/Your_leads";
 import BackToTop from "../Components/BackToTop";
-import Media_nav from "../Components/Media_nav";
 import Image from "next/image";
+import YourLeads from "../components/YourLeads";
+import MediaNav from "../components/MediaNav";
 
 const Content = () => {
   return (
     <>
-      <Media_nav />
+      <MediaNav />
       <div className=" position-relative">
         <Image
           width={70}
@@ -21,7 +21,7 @@ const Content = () => {
           src="/assets/images/svg/contactUsRight.svg"
           alt="rightSquare"
         />
-        <Your_leads />
+        <YourLeads />
       </div>
       <SaveTime />
       <CreateSec />

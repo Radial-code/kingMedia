@@ -1,27 +1,46 @@
-import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-const Your_leads = () => {
+const YourBusiness = () => {
   const [play, setplay] = useState(false);
   return (
     <>
-      <section className="bg-black">
+      <section className="bg-black lines_bg_img py-5 position-relative">
+        <Image
+          width={45}
+          height={86}
+          className="position-absolute top-0 d-none d-sm-inline-block end-0"
+          src="/assets/images/svg/half_square.svg"
+          alt="half_square"
+        />
+        <Image
+          width={35}
+          height={86}
+          className="position-absolute end-0 d-none d-sm-inline-block bottom-0 mb-5 pb-5"
+          src="/assets/images/svg/half_short_circle.svg"
+          alt="half_short_circle"
+        />
         <div className="container">
-          <div className="row align-items-center justify-content-between text-white pt-5 pb-xxl-5">
+          <div className="row align-items-center justify-content-between text-white py-5 -5">
             <div className="col-md-6 py-xl-5 position-relative">
               <div className="col-6 col-sm-7 position-absolute z_index_1">
+                {/* <img
+                  className=" w-100"
+                  src="./assets/images/png/girl_img.png"
+                  alt="girl_img"
+                /> */}
                 <Image
                   width={302.44}
                   height={243.15}
                   className="w_xl_100 h-auto"
-                  src="/assets/images/png/your_lead_boy_girl_img.png"
-                  alt="your_lead_boy_girl_img"
+                  src="/assets/images/png/girl_img.png"
+                  alt="girl_img"
                 />
               </div>
               <div className="position-relative col-8 col-sm-10 z_index_2 business_img">
                 {" "}
                 <div
-                  className="position-relative cursor_pointer d-inline-block w_xl_100 h-auto"
+                  style={{ cursor: "pointer" }}
+                  className="position-relative d-inline-block w_xl_100 h-auto"
                   width={415.14}
                   height={417.29}
                   onClick={() => {
@@ -34,8 +53,8 @@ const Your_leads = () => {
                       style={{ objectFit: "cover" }}
                       width={415.14}
                       height={417.29}
-                      src="/assets/images/png/your_lead_boy_girls_img.png"
-                      alt="your_lead_boy_girls_img"
+                      src="/assets/images/png/your_business_sec_img.png"
+                      alt="your_business_sec_img"
                     ></Image>
                   </div>
                   <video
@@ -50,6 +69,13 @@ const Your_leads = () => {
                     muted
                     playsInline
                   ></video>
+                  {/* <Image
+                    width={415.14}
+                    height={417.29}
+                    className="w_xl_100 h-auto"
+                    src="/assets/images/png/your_business_sec_img.png"
+                    alt="your_business_sec_img"
+                  /> */}
                   <a
                     href="#"
                     className={`${play ? "opacity-0" : "opacity-1"}`}
@@ -68,19 +94,16 @@ const Your_leads = () => {
             </div>
             <div className="col-md-5 py-xl-5 mt-5 mt-md-0 text-center text-md-start">
               <h2 className="ff_bebas_neue fw-normal fs_xl">
-                Short Form Video Will
-                <span className="bg_body mx-2">10x</span>Your Leads
+                WE’RE READY TO <span className="bg_body">GROW</span> YOUR
+                BUSINESS
               </h2>
               <p className="ff_Montserrat fw-normal fs_sm mb-5">
-                At ut dolor elit tellus. Sem at aliquet dui diam lectus. Eget
-                nisl duis nec augue tristique. Dui enim accumsan eget turpis
-                dictumst neque cras. A tellus dignissim ut sem.
+                Dui sed vestibulum habitasse adipiscing lectus. Pulvinar
+                malesuada at feugiat nunc. Lectus lectus sed turpis commodo
+                dignissim.
               </p>
-              <button
-                className="text-white bg_body py-3 btn_px border-0 ff_Montserrat fw-bold fs_sm"
-                href="#"
-              >
-                READ MORE
+              <button className="text-white bt_hover bg_body about_btn border-0 ff_Montserrat fw-bold fs_sm">
+                ABOUT US
               </button>
             </div>
           </div>
@@ -90,4 +113,4 @@ const Your_leads = () => {
   );
 };
 
-export default Your_leads;
+export default YourBusiness;

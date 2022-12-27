@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Image from "next/image";
-const Work_2 = () => {
+const WorkSec = () => {
   const [play, setplay] = useState(false);
   const [play2, setplay2] = useState(false);
   const [play3, setplay3] = useState(false);
@@ -339,4 +339,4 @@ const Work_2 = () => {
   );
 };
 
-export default Work_2;
+export default WorkSec;
