@@ -82,7 +82,7 @@ body {
   --bs-progress-bg: #222222 !important;
 }
 .exp_img_top {
-  top: -40%;
+  top: -14%;
 }
 
 @media (max-width: 576px) {
